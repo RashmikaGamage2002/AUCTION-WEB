@@ -1,0 +1,31 @@
+{
+  "auctions": [
+    {
+      "id": 1,
+      "title": "Nike Air Max 90",
+      "image": "/assets/airmax90.jpg",
+      "currentBid": 220,
+      "timeLeft": "02:34:12",
+      "description": "Classic Air Max 90 with original box",
+      "sellerId": 1
+    },
+    {
+      "id": 2,
+      "title": "Adidas Yeezy Boost",
+      "image": "/assets/yeezy.jpg",
+      "currentBid": 1200,
+      "timeLeft": "12:05:44",
+      "description": "Limited edition Yeezy in excellent condition",
+      "sellerId": 2
+    }
+  ],
+  "bids": [
+    { "id": 1, "auctionId": 1, "userId": 2, "amount": 220, "time": "2026-07-14T10:12:00Z" },
+    { "id": 2, "auctionId": 2, "userId": 3, "amount": 1200, "time": "2026-07-13T08:22:00Z" }
+  ],
+  "users": [
+    { "id": 1, "username": "seller1" },
+    { "id": 2, "username": "bidder1" },
+    { "id": 3, "username": "bidder2" }
+  ]
+}

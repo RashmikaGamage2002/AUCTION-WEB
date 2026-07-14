@@ -1,0 +1,5 @@
+{
+  "/api/auctions": "/auctions",
+  "/api/bids": "/bids",
+  "/api/users": "/users"
+}

@@ -1,0 +1,86 @@
+@import './common.css';
+
+/* Header Styles */
+.shoe-header {
+  background: rgba(20, 20, 20, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1.5px solid #222;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-height: 140px;
+}
+.logo {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 1px;
+  flex: 0 0 auto;
+}
+.nav-center {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+  justify-content: center;
+}
+.nav {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.nav-btn, .nav a {
+  background: none;
+  border: none !important;
+  outline: none !important;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  font-size: 1.15rem;
+  text-decoration: none;
+  transition: color 0.2s;
+  box-shadow: none !important;
+}
+.nav-btn:hover, .nav a:hover {
+  color: #FFD700;
+}
+.nav-btn:focus, .nav-btn:active, .nav a:focus, .nav a:active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-left: 2rem;
+}
+
+.btn-primary {
+  background: #FFD700;
+  color: #181818;
+  font-weight: bold;
+  font-size: 1.08rem;
+  border: none;
+  border-radius: 7px;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(255,215,0,0.12);
+  transition: background 0.2s;
+}
+.btn-primary:hover {
+  background: #FFC400;
+}

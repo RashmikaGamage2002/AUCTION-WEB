@@ -1,0 +1,67 @@
+
+/* Modal overlay (shared) */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(24, 24, 24, 0.85);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  background: #FFD700;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.08rem;
+  border: none;
+  border-radius: 7px;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(255,215,0,0.12);
+  transition: background 0.2s;
+}
+.btn-primary:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background: #FFD700;
+  color: #181818;
+  border: 2px solid #FFD700;
+  border-radius: 7px;
+  padding: 0.7rem 1.5rem;
+  font-weight: bold;
+  font-size: 1.08rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-secondary:hover {
+  background: #181818;
+  color: #FFD700;
+}
+
+.gold-text {
+  color: #ffc400;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+

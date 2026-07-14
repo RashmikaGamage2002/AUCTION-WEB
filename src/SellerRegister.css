@@ -1,0 +1,164 @@
+/* Overlay and modal styles */
+.seller-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(24, 24, 24, 0.85);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw;
+  box-sizing: border-box;
+}
+.seller-modal {
+  background: #181818;
+  border-radius: 1rem;
+  box-shadow: 0 0.25rem 2rem rgba(0,0,0,0.18);
+  padding: clamp(1rem, 4vw, 2.5rem);
+  max-width: 36rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: modalIn 0.25s ease;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.seller-modal-close {
+  position: absolute;
+  top: 1em;
+  right: 1.2em;
+  background: none;
+  border: none;
+  color: #ffd700;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  cursor: pointer;
+  z-index: 10;
+}
+.seller-title {
+  color: #ffd700 !important;
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  font-weight: bold;
+  margin-bottom: 1.2em;
+  text-align: center;
+}
+.seller-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  box-sizing: border-box;
+}
+.seller-form h3 {
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  color: #ffd700;
+  margin: 1.5em 0 0.7em 0;
+  font-weight: 600;
+}
+.seller-form label {
+  display: block;
+  margin-bottom: 0.7em;
+  font-weight: 500;
+  color: #fff;
+}
+.seller-form input,
+.seller-form textarea {
+  width: 100%;
+  padding: 0.7em 1em;
+  margin-top: 0.4em;
+  border-radius: 0.4em;
+  background: #222;
+  color: #fff;
+  font-size: 1em;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.seller-form textarea {
+  min-height: 4em;
+  resize: vertical;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.radio-row {
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: 0.5em;
+}
+.seller-form input[type="radio"] {
+  width: auto;
+  margin-right: 0.3em;
+}
+.form-disclaimer {
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  color: #e0e0e0 !important;
+  margin: 1.1em 0 0.7em 0;
+}
+.seller-btn {
+  width: 100%;
+  background: #ffd700;
+  color: #181818;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.9em 0;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  margin-top: 1.2em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.seller-btn:hover {
+  background: #e6c200;
+}
+@keyframes modalIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+  .seller-modal {
+    max-width: 90vw;
+    padding: clamp(0.7rem, 3vw, 1.5rem);
+  }
+}
+@media (max-width: 768px) {
+  .seller-modal {
+    max-width: 98vw;
+    padding: clamp(0.5rem, 2vw, 1rem);
+  }
+  .seller-title {
+    font-size: clamp(1.1rem, 5vw, 1.5rem);
+  }
+  .seller-form h3 {
+    font-size: clamp(0.95rem, 3vw, 1.1rem);
+  }
+}
+@media (max-width: 480px) {
+  .seller-modal {
+    max-width: 100vw;
+    padding: 0.5rem;
+    border-radius: 0.5em;
+  }
+  .seller-title {
+    font-size: clamp(1rem, 6vw, 1.2rem);
+  }
+  .seller-form h3 {
+    font-size: clamp(0.9rem, 4vw, 1rem);
+  }
+  .row {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .seller-btn {
+    font-size: clamp(0.95rem, 4vw, 1.1rem);
+  }
+}
