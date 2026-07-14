@@ -3,7 +3,7 @@
 <img width="509" height="1600" alt="Image" src="https://github.com/user-attachments/assets/90815b9c-18f1-4895-a9ce-5c39f01ce9ef" />
 <img width="1356" height="1600" alt="Image" src="https://github.com/user-attachments/assets/5a0b60ce-a14e-4199-b581-012e79c87878" />
 <img width="1600" height="1047" alt="Image" src="https://github.com/user-attachments/assets/873e4948-ee02-4cdf-9c33-e26a12b861a0" />
-<img width="1356" height="1600" alt="Image" src="https://github.com/user-attachments/assets/899f7268-a721-4b8d-8da5-0c2c5c5214dc" />
+
 
 # Sneakrush — Frontend Showcase
 
