@@ -1,9 +1,5 @@
 <img width="1915" height="1105" alt="Image" src="https://github.com/user-attachments/assets/4ba8db11-d7cd-446d-82b6-6d08e0943716" />
-<img width="737" height="1600" alt="Image" src="https://github.com/user-attachments/assets/a2b68755-754e-4446-9da4-84024d4317fc" />
-<img width="738" height="1600" alt="Image" src="https://github.com/user-attachments/assets/c089b2a6-a521-457b-84b7-ab7085fe24fd" />
-<img width="509" height="1600" alt="Image" src="https://github.com/user-attachments/assets/90815b9c-18f1-4895-a9ce-5c39f01ce9ef" />
-<img width="1356" height="1600" alt="Image" src="https://github.com/user-attachments/assets/5a0b60ce-a14e-4199-b581-012e79c87878" />
-<img width="1600" height="1047" alt="Image" src="https://github.com/user-attachments/assets/873e4948-ee02-4cdf-9c33-e26a12b861a0" />
+
 
 
 # Sneakrush — Frontend Showcase
