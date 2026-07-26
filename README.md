@@ -18,6 +18,11 @@ This repository contains the frontend UI for Sneakrush, an auction-style sneaker
 ## Quick Start
 
 ### 1. Clone and Install
+
+- Download zip file
+- extract ALL
+- save First AUCTION-WEB-frontend file as AUCTION-WEB
+- save secound AUCTION-WEB-frontend file as frontend
  - Download Zip file
  - Extract All
  - In terminal
