@@ -1,3 +1,7 @@
+<img width="1915" height="1105" alt="Image" src="https://github.com/user-attachments/assets/4ba8db11-d7cd-446d-82b6-6d08e0943716" />
+
+
+
 # Sneakrush — Frontend Showcase
 
 This repository contains the frontend UI for Sneakrush, an auction-style sneaker marketplace. This `frontend/` folder is a standalone UI showcase intended to demonstrate layout, responsive design, and interactions — the original backend has been removed from this repository.
@@ -19,8 +23,11 @@ This repository contains the frontend UI for Sneakrush, an auction-style sneaker
 - extract ALL
 - save First AUCTION-WEB-frontend file as AUCTION-WEB
 - save secound AUCTION-WEB-frontend file as frontend
+ - Download Zip file
+ - Extract All
+ - In terminal
 ```bash
-cd frontend
+cd AUCTION_WEB UI
 npm install
 ```
 
